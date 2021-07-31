@@ -16,13 +16,6 @@ function mymorning (day = '') {
 
 }
 
-// mymorning ('Saturday')
-//     .then((value) => {
-//         console.log(value, 'value')
-//     } )
-//     .catch((reason) => {
-//         console.log(reason, 'reason')
-//     } )
 
 function mynoon (day = '') {
     return new Promise((resolve, reject) => {
@@ -40,14 +33,7 @@ function mynoon (day = '') {
     });
 
 }
-//
-// mynoon ('Saturday')
-//     .then((value) => {
-//         console.log(value, 'value')
-//     } )
-//     .catch((reason) => {
-//         console.log(reason, 'reason')
-//     } )
+
 
 function myevning (day = '') {
     return new Promise((resolve, reject) => {
@@ -65,13 +51,6 @@ function myevning (day = '') {
 
 }
 
-// myevning('Saturday')
-//     .then((value) => {
-//         console.log(value, 'value')
-//     } )
-//     .catch((reason) => {
-//         console.log(reason, 'reason')
-//     } )
 
 
 async function dayplan() {
