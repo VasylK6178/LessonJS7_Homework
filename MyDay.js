@@ -75,13 +75,13 @@ function myevning (day = '') {
 
 
 async function dayplan() {
-    const plan = await mymorning ();
+    const plan = await mymorning ( 'Saturday');
     console.log(plan);
 
-    const plan2 = await mynoon ();
+    const plan2 = await mynoon ('Saturday');
     console.log(plan2);
 
-    const plan3 = await myevning();
+    const plan3 = await myevning('Saturday');
     console.log(plan3);
 }
 
